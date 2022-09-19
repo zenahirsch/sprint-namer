@@ -1,0 +1,15 @@
+{
+  "name": "sprint-namer",
+  "version": "0.0.1",
+  "description": "A Slack bot for naming sprints",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.1",
+    "node-fetch": "^3.2.10",
+    "faunadb": "^4.7.0"
+  },
+  "license": "UNLICENSED"
+}
